@@ -1,0 +1,3 @@
+function thanu(){
+	alert("hello")
+}

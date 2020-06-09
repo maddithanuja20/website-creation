@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+	<script type="text/javascript">
+		function tom(){
+			alert("hii")
+		}
+	</script>
+	<script type="text/javascript" src="basics.js"></script>
+</head>
+<body>
+	<h1>example for alert box</h1>
+	<form>
+		<input type="button" onclick="tom()">click
+		<input type="button" onclick="thanu()">click
+	</form>
+	<script type="text/javascript">
+		var x=10;//global variable
+		var y=20;
+		var z=x+y;
+		document.write(z);
+		function calculate(){
+			var a=50;//local variable
+			alert(x);
+		}
+		calculate()
+		/*for(i=1;i<=5;i++)
+		{
+			document.write(i+"<br>");
+		}*/
+		var t=5;
+		while(t<=10){
+			document.write(t+"<br>")
+			t++;
+		}
+	</script>
+	<!--document.write("hello world");
+	//alert("hello");-->
+	
+</body>
+</html>
