@@ -1,0 +1,28 @@
+body{
+	background-color: #16F094;
+}
+#main{
+	margin: 6%;
+	background-color: #17DDCC;
+	display: flex;
+	justify-content: space-around;
+}
+.card{
+	width: 20%;
+	background-color: #15DDAA;
+	text-align: center;
+	margin: 3%;
+	border: 1px solid red;
+	border-radius: 30% 0;
+	box-shadow: 6px 6px 6px 2px #aaaa;
+}
+img{
+	width: 40%;
+	height: 40%;
+	margin-top: 3%;
+	border-radius:4%;
+}
+a{
+	text-decoration: none;
+	color: red;
+}
